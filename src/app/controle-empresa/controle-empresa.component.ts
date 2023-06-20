@@ -43,4 +43,14 @@ export class ControleEmpresaComponent {
       }
     )
   }
+
+  remove(target : Empresa)
+  {
+    this.service.removeEmpresa(target).subscribe({
+      next: () => {
+        alert("Empresa removida com sucesso!");
+        this.loadList();
+      }
+    });
+  }
 }
