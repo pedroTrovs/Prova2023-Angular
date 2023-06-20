@@ -22,7 +22,7 @@ export class ControleEmpresaComponent {
   }
 
   ngOnInit(): void {
-    //this.loadList();
+    this.loadList();
   }
 
   save()
