@@ -9,7 +9,7 @@ export class EmpresaService {
 
   constructor(private http: HttpClient) { }
 
-  url = "http://localhost:3000/Empresas";
+  url = "http://localhost:8080/empresa";
 
   addEmpresa(obj : Empresa): Observable<Empresa> {
     return this.http.post<Empresa>(this.url, obj);
