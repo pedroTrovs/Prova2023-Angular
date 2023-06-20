@@ -14,4 +14,8 @@ export class EmpresaService {
   addEmpresa(obj : Empresa): Observable<Empresa> {
     return this.http.post<Empresa>(this.url, obj);
   }
+
+  getEmpresas(): Observable<Empresa[]> {
+    return this.http.get<Empresa[]>(this.url);
+  }
 }

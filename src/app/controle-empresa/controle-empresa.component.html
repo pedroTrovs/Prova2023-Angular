@@ -21,3 +21,23 @@
     </form>
   </div>
 </div>
+<table class="table table-striped m-5">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Endereço</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let empresa of lista">
+      <th scope="row">{{empresa.id}}</th>
+      <td>{{empresa.nome}}</td>
+      <td>{{empresa.endereco}}</td>
+      <td>{{empresa.tel}}</td>
+      <td>{{empresa.email}}</td>
+    </tr>
+  </tbody>
+</table>

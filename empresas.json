@@ -13,6 +13,20 @@
       "endereco": "Rua dos dióspiros, 77",
       "tel": "12 3456-7890",
       "email": "fausto@abc.com"
+    },
+    {
+      "id": 3,
+      "nome": "limões premium da Jacinta",
+      "endereco": "Rua dos poltergeists, 001",
+      "tel": "00 1010-0101",
+      "email": "limoes@earth.com"
+    },
+    {
+      "id": 4,
+      "nome": "Paulo caçambas",
+      "endereco": "Avenida das lagoas, 123",
+      "tel": "77 7777-7777",
+      "email": "paulo.cacambas@mars.com"
     }
   ]
 }
